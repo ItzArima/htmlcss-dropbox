@@ -188,28 +188,196 @@ h1{
 .acquista a{
     float: left;
 }
- .acquista p{
-     float: left;
- }
+.acquista p{
+    float: left;
+}
 
- .acquista{
+.acquista{
     padding: 1rem 0 3rem 0;
- }
+}
 
- .punti-salenti li{
-     padding: 1rem 0;
- }
+.punti-salenti li{
+    padding: 1rem 0;
+}
 
- .info{
+.info{
      padding: 0 2rem;
- }
+}
 
- .piano-col:nth-of-type(2){
-     margin: 0 1rem;
- }
+.piano-col:nth-of-type(2){
+    margin: 0 1rem;
+}
 
- .divisore-tabella{
+.divisore-tabella{
     border-top: 1px solid lightgrey;
     width: 30%;
     margin-bottom: 1rem;
- }
+}
+
+.team{
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid  lightgrey;
+}
+
+.ent-text{
+    padding: 2rem;
+    float: left;  
+}
+
+.ent-cont .bottone{
+    position: relative;
+    float: left;
+    padding: 2rem;
+}
+
+.enterprise{
+    border: 1px solid  lightgrey;
+}
+
+.part-img{
+    background-image: url(./img/partner.png);
+    float: left;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 470px;
+}
+
+.part-text{
+    float: left;
+    padding: 2rem;
+    width: 50%;
+}
+
+.partner{
+    margin-top: 10rem;
+}
+
+.operazione{
+    float: left;
+    width: 32.35%;
+}
+
+.op-img{
+    width: 100%;
+    height: 290px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-1{
+    background-image: url(./img/business-feature-switching-tools.png);
+}
+
+.img-2{
+    background-image: url(./img/business-feature-coordinate-it.png);
+}
+
+.img-3{
+    background-image: url(./img/business-feature-multi-device.png);
+}
+
+.img-4{
+    background-image: url(./img/business-feature-integrations-it.png);
+}
+
+.img-5{
+    background-image: url(./img/business-feature-send-files-it.png);
+}
+
+.img-6{
+    background-image: url(./img/business-feature-security.png);
+}
+
+.raw-operazioni .operazione:nth-of-type(2){
+    margin: 0 1rem;
+}
+
+.operazioni{
+    margin-top: 5rem;
+}
+
+.raw-operazioni{
+    margin: 2rem 0 4rem 0;
+}
+
+.logos-col-30{
+    width: 30%;
+    float:left;
+}
+
+.logos-col-40{
+    width: 40%;
+    float: left;
+}
+
+.logos-img{
+    width: 50%;
+    height: 165px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    background-position: center;
+    padding: 1rem;
+}
+
+.l1{
+    background-image: url(./img/designit.svg);
+    background-color: #a2d39b;
+}
+
+.l2{
+    background-image: url(./img/arizona_state_university.svg);
+    background-color: #61082b;
+}
+
+.l3{
+    background-image: url(./img/university_of_florida.svg);
+    background-color: #0093ce;
+}
+
+.l4{
+    background-image: url(./img/topps.svg);
+    background-color: #ff1c1c;
+}
+
+.l5{
+    background-image: url(./img/world_bicycle_relief.svg);
+    background-color: #d5001f;
+}
+
+.l6{
+    background-image: url(./img/hearst_corp.svg);
+    background-color: #b4d0e7;
+}
+
+.l7{
+    background-image: url(./img/lonely_planet.svg);
+    background-color: #0d2481;
+}
+
+.l8{
+    background-image: url(./img/clear_channel.svg);
+    background-color: #ffd830;
+}
+
+.designit-logo{
+    background-image: url(./img/designit.svg);
+    height: 50px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 2rem;
+}
+
+.logos-line{
+    margin-left: 2rem;
+    width: 10%;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 3rem;
+}
+
+.logos p{
+    margin: 0 2rem ;
+}
