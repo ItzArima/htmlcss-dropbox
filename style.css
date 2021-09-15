@@ -134,7 +134,7 @@ h1{
     padding-bottom: 4rem;
 }
 
-.main-container{
+.main-container, .padding-po-que{
     padding: 0 13rem;
 }
 
@@ -380,4 +380,83 @@ h1{
 
 .logos p{
     margin: 0 2rem ;
+}
+
+.porta{
+    background-color: #b4d0e7;
+    padding: 5rem 0;
+}
+
+.padding-po-que .bottone-bianco,.padding-po-que h2{
+    float: left;
+}
+
+.padding-po-que h2{
+    color: #61082b;
+}
+
+.padding-po-que .bottone-bianco{
+    position: relative;
+    top: 2px;
+    right: -506px;
+}
+
+.questions p{
+    padding: 1.25rem 0;
+}
+
+.questions{
+    margin: 7rem 0;
+}
+
+.foot-col{
+    width: 25%;
+    float: left;
+    padding: 5rem 1rem;
+}
+
+.foot-col a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer{
+    background-color: #000000;
+}
+
+.foot-col h4{
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.foot-col li{
+    padding: 0.5rem 0;
+}
+
+.lingua{
+    color: #666666;
+    padding: 3rem 1rem;
+}
+
+.foot-line{
+    border-bottom: 1px solid lightgray;
+    margin-left: 1rem;
+    width: 10%;
+}
+
+.questions p{
+    float: left;
+}
+
+.questions i{
+    float: right;
+}
+
+.lingua a{
+    text-decoration: none;
+    color: #666666;
 }
