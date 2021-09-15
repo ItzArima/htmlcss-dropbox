@@ -128,8 +128,10 @@ h1{
 }
 
 .piano-col {
-    width: 33.33%;
+    width: 32.35%;
     float: left;
+    border: 1px solid lightgrey;
+    padding-bottom: 4rem;
 }
 
 .main-container{
@@ -144,7 +146,7 @@ h1{
 .icon{
     text-align: center;
     padding: 0.5rem 0;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
 .piano-table{
@@ -155,14 +157,59 @@ h1{
     list-style-type: none;
 }
 
-.piano-table .piano-col:nth-child(2){
+.info{
     padding: 0 1rem;
 }
 
-.piano-table .piano-col:first-of-type{
-    padding-right: 0.5rem;
+.piano h3{
+    padding: 1rem 0;
 }
 
-.piano-table .piano-col:last-of-type{
-    padding-left: 0.5rem;
+.g{
+    color: lightgrey;
+    padding: 0.75rem 0 2rem 0;
 }
+
+.info-sec{
+    padding: 1rem 0;
+}
+
+.fa-pencil-alt{
+    float: left;
+    width: 5%;
+}
+
+.pencil{
+    float: left;
+    width: 95%;
+    padding-left: 5px;
+}
+
+.acquista a{
+    float: left;
+}
+ .acquista p{
+     float: left;
+ }
+
+ .acquista{
+    padding: 1rem 0 3rem 0;
+ }
+
+ .punti-salenti li{
+     padding: 1rem 0;
+ }
+
+ .info{
+     padding: 0 2rem;
+ }
+
+ .piano-col:nth-of-type(2){
+     margin: 0 1rem;
+ }
+
+ .divisore-tabella{
+    border-top: 1px solid lightgrey;
+    width: 30%;
+    margin-bottom: 1rem;
+ }
