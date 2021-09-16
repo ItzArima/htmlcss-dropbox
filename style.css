@@ -144,6 +144,10 @@ h1{
     padding: 0 13rem;
 }
 
+.main-container{
+    margin-bottom: 5rem;
+}
+
 .piano h2{
     margin-top: 7rem;
     padding: 4rem 0;
@@ -180,12 +184,12 @@ h1{
     padding: 1rem 0;
 }
 
-.fa-pencil-alt{
+.fa-pencil-alt ,.fa-smile,.fa-folder{
     float: left;
     width: 5%;
 }
 
-.pencil{
+.pencil ,.info-sec:nth-of-type(2) span{
     float: left;
     width: 95%;
     padding-left: 5px;
@@ -556,4 +560,30 @@ footer{
 .porta a{
     color: black;
     text-decoration: none;
+}
+
+.questions h3{
+    font-size: 30px;
+    padding-bottom: 3rem;
+}
+
+.question:nth-child(2n+0){
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.question:last-of-type{
+    border-bottom:  1px solid lightgrey;
+}
+
+.fa-angle-down{
+    padding: 1.43rem 0;
+}
+
+.fa-folder{
+    float: left;
+}
+
+.info-sec:nth-of-type(2) span{
+    padding-bottom: 1rem;
 }
