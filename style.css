@@ -303,11 +303,11 @@ h1{
 }
 
 .raw-operazioni .operazione:nth-of-type(2){
-    margin: 0 1rem;
+    padding: 0 1rem;
 }
 
 .operazioni{
-    margin-top: 5rem;
+    margin: 5rem 0 7.5rem 0;
 }
 
 .raw-operazioni{
@@ -397,12 +397,16 @@ h1{
 
 .padding-po-que h2{
     color: #61082b;
+    width: 45%;
+    font-size: 41px;
 }
 
 .padding-po-que .bottone-bianco{
     position: relative;
     top: 2px;
     right: -506px;
+    background-color: white;
+    padding: 0.5rem 1rem;
 }
 
 .questions p{
@@ -516,4 +520,40 @@ footer{
 .partner a{
     text-decoration: none;
     color: black;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.operazioni h3{
+    margin: 1rem 0;
+}
+
+.raw-operazioni .operazione:first-of-type{
+    padding-right: 2rem;
+}
+
+.raw-operazioni .operazione:last-of-type{
+    padding-left: 2rem;
+}
+
+.utilizzano h2{
+    font-size: 39px;
+    width: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.utilizzano a{
+    color: #0061ff;
+    padding: 1rem 0;
+}
+
+.logos-col-40 p:last-of-type{
+    margin-top: 8rem;
+}
+
+.porta a{
+    color: black;
+    text-decoration: none;
 }
