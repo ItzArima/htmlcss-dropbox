@@ -235,9 +235,12 @@ h1{
 }
 
 .ent-cont .bottone{
-    position: relative;
     float: left;
-    padding: 2rem;
+    padding: 0.25rem 3rem;
+    background-color: #0061ff;
+    position: relative;
+    top: 2rem;
+    left: 17%;
 }
 
 .enterprise{
@@ -490,4 +493,27 @@ footer{
 
 .bottone-piano:nth-of-type(2){
     margin-left: 2rem;
+}
+
+.ent-text p:first-of-type{
+    padding: 1rem 0 1.5rem 0;
+}
+
+.part-text h3{
+    font-size: 35px;
+}
+
+.part-text p{
+    padding: 2rem 0;
+}
+
+.partner .bottone-bianco{
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    width: 24%;
+}
+
+.partner a{
+    text-decoration: none;
+    color: black;
 }
