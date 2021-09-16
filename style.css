@@ -314,7 +314,7 @@ h1{
 
 .logos-img{
     width: 50%;
-    height: 165px;
+    height: 285px;
     background-size: contain;
     background-repeat: no-repeat;
     float: left;
@@ -322,43 +322,35 @@ h1{
     padding: 1rem;
 }
 
-.l1{
-    background-image: url(./img/designit.svg);
+.bg1{
     background-color: #a2d39b;
 }
 
-.l2{
-    background-image: url(./img/arizona_state_university.svg);
+.bg2{
     background-color: #61082b;
 }
 
-.l3{
-    background-image: url(./img/university_of_florida.svg);
+.bg3{
     background-color: #0093ce;
 }
 
-.l4{
-    background-image: url(./img/topps.svg);
+.bg4{
     background-color: #ff1c1c;
 }
 
-.l5{
-    background-image: url(./img/world_bicycle_relief.svg);
+.bg5{
     background-color: #d5001f;
 }
 
-.l6{
-    background-image: url(./img/hearst_corp.svg);
+.bg6{
     background-color: #b4d0e7;
 }
 
-.l7{
-    background-image: url(./img/lonely_planet.svg);
+.bg7{
     background-color: #0d2481;
 }
 
-.l8{
-    background-image: url(./img/clear_channel.svg);
+.bg8{
     background-color: #ffd830;
 }
 
@@ -459,4 +451,11 @@ footer{
 .lingua a{
     text-decoration: none;
     color: #666666;
+}
+
+.logos img{
+    filter: invert(100%);
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
