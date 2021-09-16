@@ -193,7 +193,10 @@ h1{
 
 .acquista a{
     float: left;
+    margin-left: 5px;
+    color: #0061ff;
 }
+
 .acquista p{
     float: left;
 }
@@ -479,7 +482,12 @@ footer{
 
 .container-hero .bottone{
     background-color: #0061ff;
-    padding: 5px 15px;
-    width: 32%;
+    padding: 4px 0px;
+    width: 34%;
     margin-bottom: 0.75rem;
+    text-align: center;
 }    
+
+.bottone-piano:nth-of-type(2){
+    margin-left: 2rem;
+}
